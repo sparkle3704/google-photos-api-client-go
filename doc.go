@@ -2,7 +2,7 @@
 //
 // Usage:
 //
-//	import gphotos "github.com/sparkle3704/google-photos-api-client-go/v3"
+//	import gphotos "github.com/sparkle3704/google-photos-api-client-go"
 //
 // Construct a new Google Photos client, it needs an authenticated HTTP Client, see the Authentication section below.
 //
@@ -50,7 +50,7 @@
 //			import (
 //				"golang.org/x/oauth2"
 //
-//				gphotos "github.com/sparkle3704/google-photos-api-client-go/v3"
+//				gphotos "github.com/sparkle3704/google-photos-api-client-go"
 //		 )
 //			func main() {
 //				ctx := context.Background()
@@ -77,4 +77,4 @@
 //
 // Google Photos API imposes some limitations, please read them all at:
 // https://github.com/sparkle3704/google-photos-api-client-go/
-package gphotos // import "github.com/sparkle3704/google-photos-api-client-go/v3"
+package gphotos // import "github.com/sparkle3704/google-photos-api-client-go"

@@ -2,7 +2,7 @@ package uploader_test
 
 import (
 	"bytes"
-	"github.com/sparkle3704/google-photos-api-client-go/v3/uploader"
+	"github.com/sparkle3704/google-photos-api-client-go/uploader"
 	"os"
 	"reflect"
 	"testing"

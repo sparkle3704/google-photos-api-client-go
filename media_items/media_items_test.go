@@ -2,8 +2,8 @@ package media_items_test
 
 import (
 	"context"
-	"github.com/sparkle3704/google-photos-api-client-go/v3/media_items"
-	"github.com/sparkle3704/google-photos-api-client-go/v3/mocks"
+	"github.com/sparkle3704/google-photos-api-client-go/media_items"
+	"github.com/sparkle3704/google-photos-api-client-go/mocks"
 	"net/http"
 	"testing"
 )

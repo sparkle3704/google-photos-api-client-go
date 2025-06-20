@@ -2,11 +2,11 @@ package gphotos_test
 
 import (
 	"context"
-	gphotos "github.com/sparkle3704/google-photos-api-client-go/v3"
-	"github.com/sparkle3704/google-photos-api-client-go/v3/albums"
-	"github.com/sparkle3704/google-photos-api-client-go/v3/media_items"
-	"github.com/sparkle3704/google-photos-api-client-go/v3/mocks"
-	"github.com/sparkle3704/google-photos-api-client-go/v3/uploader"
+	gphotos "github.com/sparkle3704/google-photos-api-client-go"
+	"github.com/sparkle3704/google-photos-api-client-go/albums"
+	"github.com/sparkle3704/google-photos-api-client-go/media_items"
+	"github.com/sparkle3704/google-photos-api-client-go/mocks"
+	"github.com/sparkle3704/google-photos-api-client-go/uploader"
 	"net/http"
 	"testing"
 )

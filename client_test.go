@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	gphotos "github.com/sparkle3704/google-photos-api-client-go/v3"
+	gphotos "github.com/sparkle3704/google-photos-api-client-go"
 )
 
 func TestNewClient(t *testing.T) {

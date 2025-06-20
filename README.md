@@ -1,5 +1,5 @@
 # Google Photos API client for Go
-[![Go Reference](https://pkg.go.dev/badge/github.com/sparkle3704/google-photos-api-client-go/v3.svg)](https://pkg.go.dev/github.com/sparkle3704/google-photos-api-client-go/v3)
+[![Go Reference](https://pkg.go.dev/badge/github.com/sparkle3704/google-photos-api-client-go.svg)](https://pkg.go.dev/github.com/sparkle3704/google-photos-api-client-go)
 [![Go Report Card](https://goreportcard.com/badge/github.com/sparkle3704/google-photos-api-client-go)](https://goreportcard.com/report/github.com/sparkle3704/google-photos-api-client-go)
 [![codebeat badge](https://codebeat.co/badges/e11c71e4-bcdc-4aff-91c4-75807cf75e9a)](https://codebeat.co/projects/github-com-gphotosuploader-google-photos-api-client-go-main)
 [![codecov](https://codecov.io/gh/gphotosuploader/google-photos-api-client-go/branch/main/graph/badge.svg)](https://codecov.io/gh/gphotosuploader/google-photos-api-client-go)
@@ -22,13 +22,13 @@ The package offers access to these Google Photos services:
 `google-photos-api-client-go` is compatible with modern Go releases in module mode. You can install it using:
 
 ```bash
-$ go get github.com/sparkle3704/google-photos-api-client-go/v3
+$ go get github.com/sparkle3704/google-photos-api-client-go
 ```
 
 ## Usage
 
 ```go
-import gphotos "github.com/sparkle3704/google-photos-api-client-go/v3"
+import gphotos "github.com/sparkle3704/google-photos-api-client-go"
 ```
 
 Construct a new Google Photos client, then use the various services on the client to access different parts of the Google Photos API. 
@@ -56,7 +56,7 @@ Access to the API requires OAuth 2.0 client credentials from a Google developers
 import (
     "golang.org/x/oauth2"
 
-    gphotos "github.com/sparkle3704/google-photos-api-client-go/v3"
+    gphotos "github.com/sparkle3704/google-photos-api-client-go"
 )
 
 func main() {

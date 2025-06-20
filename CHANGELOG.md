@@ -73,7 +73,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 
 ```go
 // New module path
-import gphotos "github.com/sparkle3704/google-photos-api-client-go/v3"
+import gphotos "github.com/sparkle3704/google-photos-api-client-go"
 ```
 
 ### Added

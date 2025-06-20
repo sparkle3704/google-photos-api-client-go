@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/sparkle3704/google-photos-api-client-go/v3/internal/log"
+	"github.com/sparkle3704/google-photos-api-client-go/internal/log"
 )
 
 // SimpleUploader implements a simple uploader to Google Photos.

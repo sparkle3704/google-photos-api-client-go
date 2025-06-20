@@ -1,4 +1,4 @@
-module github.com/sparkle3704/google-photos-api-client-go/v3
+module github.com/sparkle3704/google-photos-api-client-go
 
 go 1.23.0
 

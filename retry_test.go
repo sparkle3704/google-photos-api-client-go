@@ -3,8 +3,8 @@ package gphotos_test
 import (
 	"context"
 	"errors"
-	gphotos "github.com/sparkle3704/google-photos-api-client-go/v3"
-	"github.com/sparkle3704/google-photos-api-client-go/v3/mocks"
+	gphotos "github.com/sparkle3704/google-photos-api-client-go"
+	"github.com/sparkle3704/google-photos-api-client-go/mocks"
 	"io"
 	"net/http"
 	"net/url"
