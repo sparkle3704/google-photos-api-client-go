@@ -2,9 +2,9 @@ package gphotos
 
 import (
 	"errors"
-	"github.com/gphotosuploader/google-photos-api-client-go/v3/albums"
-	"github.com/gphotosuploader/google-photos-api-client-go/v3/media_items"
-	"github.com/gphotosuploader/google-photos-api-client-go/v3/uploader"
+	"github.com/sparkle3704/google-photos-api-client-go/v3/albums"
+	"github.com/sparkle3704/google-photos-api-client-go/v3/media_items"
+	"github.com/sparkle3704/google-photos-api-client-go/v3/uploader"
 	"net/http"
 )
 

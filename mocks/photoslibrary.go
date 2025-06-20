@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gphotosuploader/googlemirror/api/photoslibrary/v1"
+	"github.com/sparkle3704/googlemirror/api/photoslibrary/v1"
 )
 
 const (

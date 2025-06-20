@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/gphotosuploader/googlemirror/api/photoslibrary/v1"
+	"github.com/sparkle3704/googlemirror/api/photoslibrary/v1"
 	"google.golang.org/api/googleapi"
 	"net/http"
 )

@@ -26,7 +26,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 ### Changed
 - Updated supported `Go` versions to `1.20`-`1.21`.
 - Updated `github.com/go-chi/chi/v5` to version 5.0.12.
-- Updated `github.com/gphotosuploader/googlemirror` to version 0.5.0.
+- Updated `github.com/sparkle3704/googlemirror` to version 0.5.0.
 - Updated `github.com/hashicorp/go-retryablehttp` to version 0.7.5.
 - Updated `google.golang.org/api` to version 0.167.0.
 - [CI] Updated `golangci` to 'v1.56.2'.
@@ -44,7 +44,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 ### Changed
 - Bump `google.golang.org/api` from 0.145.0 to 0.148.0
 
-[i116]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/116
+[i116]: https://github.com/sparkle3704/google-photos-api-client-go/issues/116
 
 ## 3.0.2
 
@@ -58,10 +58,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 - [CI] Bump `actions/checkout` from 3 to 4 ([#110][i110])
 - [CI] Bump `golangci` from 1.53.1 to 1.54.2
 
-[i102]: https://github.com/gphotosuploader/google-photos-api-client-go/pull/102
-[i105]: https://github.com/gphotosuploader/google-photos-api-client-go/pull/105
-[i110]: https://github.com/gphotosuploader/google-photos-api-client-go/pull/110
-[i113]: https://github.com/gphotosuploader/google-photos-api-client-go/pull/113
+[i102]: https://github.com/sparkle3704/google-photos-api-client-go/pull/102
+[i105]: https://github.com/sparkle3704/google-photos-api-client-go/pull/105
+[i110]: https://github.com/sparkle3704/google-photos-api-client-go/pull/110
+[i113]: https://github.com/sparkle3704/google-photos-api-client-go/pull/113
 
 ## 3.0.1
 ### Changed
@@ -73,7 +73,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/) and this 
 
 ```go
 // New module path
-import gphotos "github.com/gphotosuploader/google-photos-api-client-go/v3"
+import gphotos "github.com/sparkle3704/google-photos-api-client-go/v3"
 ```
 
 ### Added
@@ -104,8 +104,8 @@ import gphotos "github.com/gphotosuploader/google-photos-api-client-go/v3"
 - All services mock in favor of the `MockedGooglePhotosService` implementing Google Photos API for testing.
 - Unused OAuth scopes have been removed: `DrivePhotosReadonlyScope` and `PhotoslibrarySharingScope`.
 
-[i65]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/65
-[i62]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/62
+[i65]: https://github.com/sparkle3704/google-photos-api-client-go/issues/65
+[i62]: https://github.com/sparkle3704/google-photos-api-client-go/issues/62
 
 ## 2.4.1
 ### Changed
@@ -135,8 +135,8 @@ import gphotos "github.com/gphotosuploader/google-photos-api-client-go/v3"
 ### Removed
 - Support for `go` version `1.15`.
 
-[i72]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/72
-[i65]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/65
+[i72]: https://github.com/sparkle3704/google-photos-api-client-go/issues/72
+[i65]: https://github.com/sparkle3704/google-photos-api-client-go/issues/65
  
 ## 2.3.0
 ### Added
@@ -149,22 +149,22 @@ import gphotos "github.com/gphotosuploader/google-photos-api-client-go/v3"
 - Removes retry when Google Photos requests quota limit has been reached. ([gphotos-uploader-cli#290][igphotos-uploader-cli-290])
 - Removes retry when Google Photos requests quota limit has been reached. ([gphotos-uploader-cli#248][igphotos-uploader-cli-248])
 
-[igphotos-uploader-cli-290]: https://github.com/gphotosuploader/gphotos-uploader-cli/issues/290
-[igphotos-uploader-cli-248]: https://github.com/gphotosuploader/gphotos-uploader-cli/issues/248
+[igphotos-uploader-cli-290]: https://github.com/sparkle3704/gphotos-uploader-cli/issues/290
+[igphotos-uploader-cli-248]: https://github.com/sparkle3704/gphotos-uploader-cli/issues/248
 
 ## 2.1.3
 ### Fixed
 - Disabled DEBUG log for each request. ([#56][i56])
 
-[i56]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/56
+[i56]: https://github.com/sparkle3704/google-photos-api-client-go/issues/56
 
 ## 2.1.2
 ### Fixed
 - Crash when Google Photos API returns a `MediaItem` with an error on `mediaItems.batchCreate`. ([#54][i54])
 - Basic uploader is throwing a bad request when trying to upload a file. ([#53][i53])
 
-[i54]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/54
-[i53]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/53
+[i54]: https://github.com/sparkle3704/google-photos-api-client-go/issues/54
+[i53]: https://github.com/sparkle3704/google-photos-api-client-go/issues/53
 
 ## 2.1.1
 ### Added
@@ -192,7 +192,7 @@ import gphotos "github.com/gphotosuploader/google-photos-api-client-go/v3"
 - Added `AddMediaToLibrary` to upload media without assigning it to an album.
 - Added retries on HTTP Client. The default configuration will use Exponential Backoff with a maximum of 5 retries.
 ### Changed
-- Import path includes **v2**: `github.com/gphotosuploader/google-photos-api-client-go/v2`.
+- Import path includes **v2**: `github.com/sparkle3704/google-photos-api-client-go/v2`.
 - Client call has changes to `NewClient` where you can customize with `Options`. See [README](README.md) for more information.
 ### Fixed
 - Check for permission errors. ([#25][i25])
@@ -205,11 +205,11 @@ import gphotos "github.com/gphotosuploader/google-photos-api-client-go/v3"
 - Removed `NewOAuthConfig`.
 - Removed the methods that were deprecated on v1.1.0. ([#11][i11])
 
-[i36]: https://github.com/gphotosuploader/google-photos-api-client-go/pull/36
-[i25]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/25
-[i11]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/11
-[i9]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/9
-[i8]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/8
+[i36]: https://github.com/sparkle3704/google-photos-api-client-go/pull/36
+[i25]: https://github.com/sparkle3704/google-photos-api-client-go/issues/25
+[i11]: https://github.com/sparkle3704/google-photos-api-client-go/issues/11
+[i9]: https://github.com/sparkle3704/google-photos-api-client-go/issues/9
+[i8]: https://github.com/sparkle3704/google-photos-api-client-go/issues/8
 
 ## 1.1.5
 ### Changed
@@ -233,7 +233,7 @@ import gphotos "github.com/gphotosuploader/google-photos-api-client-go/v3"
 ### Removed
 - Remove progress information when uploading, if you want to have progress bars when upload a file, you should inject a reader to the Uploader().
 
-[i32]: https://github.com/gphotosuploader/google-photos-api-client-go/issues/32
+[i32]: https://github.com/sparkle3704/google-photos-api-client-go/issues/32
 
 ## 1.1.2
 ### Changed
@@ -293,7 +293,7 @@ import gphotos "github.com/gphotosuploader/google-photos-api-client-go/v3"
 
 ## 1.0.3
 ### Added
-- Add resumable file uploads. You can use new `UploadFileResumable` method to upload files that can be resumed. See [documentation](https://godoc.org/github.com/gphotosuploader/google-photos-api-client-go/lib-gphotos) for more details.
+- Add resumable file uploads. You can use new `UploadFileResumable` method to upload files that can be resumed. See [documentation](https://godoc.org/github.com/sparkle3704/google-photos-api-client-go/lib-gphotos) for more details.
 
 ## 1.0.2
 ### Added

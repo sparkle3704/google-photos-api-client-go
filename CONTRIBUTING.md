@@ -2,10 +2,10 @@
 Please read this guide if you plan to contribute to this project. We welcome any kind of contribution. No matter if you are an experienced programmer or just starting, we are looking forward to your contribution.
 
 ## Reporting Issues
-If you find a bug while using this module, please [open an issue on GitHub](https://github.com/gphotosuploader/google-photos-api-client-go/issues/new?assignees=pacoorozco&labels=bug&template=bug_report.md) and let us know what went wrong. We will try to fix it as quickly as we can.
+If you find a bug while using this module, please [open an issue on GitHub](https://github.com/sparkle3704/google-photos-api-client-go/issues/new?assignees=pacoorozco&labels=bug&template=bug_report.md) and let us know what went wrong. We will try to fix it as quickly as we can.
 
 ## Feature Requests
-You are more than welcome to open issues in this project to [suggest new features](https://github.com/gphotosuploader/google-photos-api-client-go/issues/new?assignees=&labels=feature+request&template=feature_request.md).
+You are more than welcome to open issues in this project to [suggest new features](https://github.com/sparkle3704/google-photos-api-client-go/issues/new?assignees=&labels=feature+request&template=feature_request.md).
 
 ## Contributing Code
 This project is mainly written in Golang.

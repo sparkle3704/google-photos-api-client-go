@@ -2,7 +2,7 @@ package gphotos
 
 import (
 	"context"
-	"github.com/gphotosuploader/google-photos-api-client-go/v3/media_items"
+	"github.com/sparkle3704/google-photos-api-client-go/v3/media_items"
 )
 
 // Upload uploads the specified file and creates the media item
